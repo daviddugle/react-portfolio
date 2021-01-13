@@ -1,0 +1,20 @@
+.navbar{
+    font-family: 'Archivo Black', sans-serif;
+    /* text-shadow: 2px 2px 5px white; */
+    
+    
+}
+body{
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+}
+i{
+    font-size: 48px;
+}
+i:hover{
+    text-shadow: 2px 2px 35px dodgerblue;
+    font-size:55px;
+    
+
+}
