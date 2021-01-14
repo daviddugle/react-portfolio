@@ -1,6 +1,6 @@
 import React from "react";
 
-function Navigation() {
+const NavHead =() => {
 
     return (
 
@@ -36,4 +36,4 @@ function Navigation() {
 
 }
 
-export default Navigation;
+export default NavHead;

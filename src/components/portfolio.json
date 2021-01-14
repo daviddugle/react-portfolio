@@ -1,0 +1,64 @@
+[
+    {
+        "name": "Weather Dashboard",
+        "img": "https://github.com/daviddugle/Weather-Dashboard/blob/main/assets/Photos/Screenshot%202020-11-13%20204346.jpg?raw=true",
+        "git": "https://github.com/daviddugle/Weather-Dashboard",
+        "deployed": "https://daviddugle.github.io/Weather-Dashboard/",
+        "description": "This is a fun app that uses the Open Weather API. It takes in locations that you would like to search and stores them on the local storage. The app gives you a current weather forecast and a five day.",
+        "challenges": "In the beginning I had challenges with the local storage and saving the locations the user had selected. Then it was just a matter of managing the third party API information.",
+        "persevered": "I continued to study local storage and how to set and get the informtion. Also with the third party API it was important to console log the data at all steps to make sure that I was getting what I needed.",
+        "technology": ["Third Party API, Local Storage","jQuery", "Bootstrap", "fontAwesome","Moment"]
+    },
+    {
+        "name": "Work Day Scheduler",
+        "img": "https://github.com/daviddugle/Work-Day-Scheduler/blob/main/assets/Screenshot%202020-11-11%20125954.jpg?raw=true",
+        "git": "https://github.com/daviddugle/Work-Day-Scheduler",
+        "deployed": "https://daviddugle.github.io/Work-Day-Scheduler/",
+        "description": "This App is a work day scheduler that keeps track of your business hours. The hours on the scheduler change as the time of day progresses (past, present and future). The user is able to save information to local storage to display on the page.",
+        "challenges": "Working with local storage was challenging at first but was able to get through it.",
+        "persevered": "Continued to dive deep into the documentation and ask a lot of questions. I feel this was a great project that challenged me at the state of development I was at.",
+        "technology": ["Moment", "Local Storage", "Bootstrap", "FontAwesome","Google Fonts"]
+    },
+    {
+        "name": "Honest Trailers",
+        "img": "https://raw.githubusercontent.com/v-lax/movie_trailer_web_app/main/assets/deployed.png",
+        "git": "https://github.com/v-lax/movie_trailer_web_app",
+        "deployed": "https://v-lax.github.io/movie_trailer_web_app/index.html",
+        "description": "This was a collaborative group project. Our group consisting of; Baker, Chris, David, Valli and Zoreah decided we would improve upon the movie information you typically see. We started by gathering the information from the OMDB api to display the pedigree information of the movie. Once we had the information from the movie displayed we wanted to give the user an opportunity to see the preview of the movie. We felt that we could improve on the user's experience by not just providing the official trailer but the Honest Trailer from the YouTube API. As an added bonus for the user we thought we would share with the user some available photos of the Actors/Actresses from the Google Image API.",
+        "challenges": "One of the biggest challenges we faced as a group project was working as a group. Having five members of a group in and out of the Github repo made it challenging.",
+        "persevered": "We quickly found a work flow that made us successful but it took some bumps and bruises. The group project made us stronger developers overall.",
+        "technology": ["Bulma","jQuery", "FontAwesome", "OMDB AOI", "Google API (YouTube)", "Local Storage"]
+    },
+    {
+        "name": "Daily Service Record",
+        "img": "https://user-images.githubusercontent.com/72622031/102845579-da0b3b00-43db-11eb-8248-c9883bc56227.png",
+        "git": "https://github.com/diminako/daily_service_record",
+        "deployed": "https://mighty-spire-89072.herokuapp.com/",
+        "description": "This was a collaborative group project. The Daily Service Record is a Full-Stack MVC web application that authenticates users as administrators (manager) or employees (user) based off of their login credentials. This application will allow both the Manager and Employees to view information specific to thier duties and current repairs.",
+        "challenges": "Some of the bigger challenges was how to get the data we needed for the task that we wanted it for. Once we got the API requests set we were in pretty good shape.",
+        "persevered": "Continually referring to the documentation and checking to make sure we were seeing the data where we had expected to see it.",
+        "technology": ["SQL", "Sequelize","Bulma","Handlebars", "FontAwesome", "jQuery", "Moment", "D3","Express","Passport","bcrypt"]
+    },
+    {
+        "name": "Burger Logger",
+        "img": "https://github.com/daviddugle/Burger-Logger/raw/main/public/assets/burgerPhoto.jpg",
+        "git": "https://github.com/daviddugle/employee-directory",
+        "deployed": "https://intense-garden-63215.herokuapp.com/",
+        "description": "A simple full-stack app that allows you to take in burger suggestions add them to a list and then move to another list if selected by a consumer.",
+        "challenges": "The biggest challeng for me at this point for my first full stack app was moving the data across the handlebars.",
+        "persevered": "I had to ask a lot of questions and keep at the process to get the data where it needed to be.",
+        "technology": ["Express","Handlebars","Node","SQL", "Heroku", "jQuery"]
+    },
+    {
+        "name": "Employee Directory",
+        "img": "https://raw.githubusercontent.com/daviddugle/employee-directory/main/assets/Screenshot%202021-01-12%20072952.jpg",
+        "git": "https://github.com/daviddugle/Burger-Logger",
+        "deployed": "https://daviddugle.github.io/employee-directory/",
+        "description": "My first React app that takes in a list of employees and allows a manager to sort them by at least one category",
+        "challenges": "Being new to React, I struggled at where I was grabbing information on another component.",
+        "persevered": "Not being afraid to ask for help, it turned out I had a syntax error that caused my frustrations.",
+        "technology": ["React", "Node","Bootstrap","React-Dom","Axios","Randomuser API"]
+    }
+
+
+]

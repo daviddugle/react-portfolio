@@ -1,16 +1,18 @@
 import React from "react";
-import Navigation from"./Navigation";
+import NavHead from "./NavHead";
+import Foot from "./Foot"
 
 
-function Portfolio (){
+function Portfolio() {
 
     return (
-
-        <Navigation />
-
-
+        <>
+        <NavHead />
 
 
+
+        <Foot />
+        </>
     )
 
 }
