@@ -1,6 +1,7 @@
 import React from "react";
 import NavHead from "./NavHead";
 import Foot from "./Foot"
+import Portfolio from "./Portfolio";
 
 
 const Wrapper =() => {
@@ -9,7 +10,7 @@ const Wrapper =() => {
         <>
         <NavHead />
 
-
+        <Portfolio/>
 
         <Foot />
         </>
