@@ -5,16 +5,17 @@ const Foot = () => {
 
     return (
 
-        
-            <footer className="footer">
-                <div className="content has-text-centered has-background-black has-text-white">
-                    <p>
-                        <strong><i className="far fa-copyright"></i>David Dugle 2021</strong>
 
-                    </p>
+
+        <footer class="page-footer black">
+            <div class="container">
+                <div className="row">
+                    <div className="col s12 center-align">
+                        <strong><i className="far fa-copyright "></i>David Dugle 2021</strong>
+                    </div>
                 </div>
-            </footer>
-        
+            </div>
+        </footer>
 
 
 

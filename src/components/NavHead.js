@@ -1,33 +1,23 @@
 import React from "react";
+import resume from "../images/resume.pdf"
 
-const NavHead =() => {
+const NavHead = () => {
 
     return (
 
 
-        <nav className="navbar has-background-black has-text-dark is-transparent">
-            <div className="navbar-init">
-                <a href="index.html" className="navbar-item">
-                    <p id="initials" className="py-2 px-2 is-size-1"><i className="fas fa-home"></i>
-                    </p>
-                </a>
-                {/* <a className="navbar-burger" id="burger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </a> */}
-            </div>
-            <div className="navbar-menu" id="nav-links">
-                <div className="navbar-end is-size-5">
-                    <a href="https://www.linkedin.com/in/david-dugle-54b16641/" rel="noreferrer" target="_blank"
-                        className="navbar-item"><i className="fab fa-linkedin"></i>
-                    </a>
-                    <a href="https://github.com/daviddugle" rel="noreferrer" target="_blank" className="navbar-item"><i className="fab fa-github"></i></a>
-                    <a href="./David Dugle Resume2.1.pdf" rel="noreferrer" target="_blank" className="navbar-item">Resume</a>
-
-                </div>
+        <nav>
+            <div class="nav-wrapper black">
+                <a href="#" class="brand-logo"><i className="fas fa-home"></i></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="https://www.linkedin.com/in/david-dugle-54b16641/" target="_blank" rel="noreferrer"><i className="fab fa-linkedin"></i></a></li>
+                    <li><a href="https://github.com/daviddugle" target="_blank" rel="noreferrer"><i className="fab fa-github"></i></a></li>
+                    <li><a href="google.com" target="_blank" rel="noreferrer">Portfolio</a></li>
+                    <li><a href={ resume } target="_blank" rel="noreferrer">Resume</a></li>
+                </ul>
             </div>
         </nav>
+
 
 
 
