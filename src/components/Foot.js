@@ -1,4 +1,5 @@
 import React from "react";
+import  "./style.css";
 
 const Foot = () => {
 
@@ -7,8 +8,8 @@ const Foot = () => {
 
 
 
-        <footer class="page-footer black">
-            <div class="container">
+        <footer className="page-footer black">
+            <div className="container">
                 <div className="row">
                     <div className="col s12 center-align">
                         <strong><i className="far fa-copyright "></i>David Dugle 2021</strong>

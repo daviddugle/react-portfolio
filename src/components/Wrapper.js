@@ -8,11 +8,17 @@ const Wrapper =() => {
 
     return (
         <>
+
+        <div className="black">
         <NavHead />
 
         <Portfolio/>
 
         <Foot />
+
+        </div>
+
+
         </>
     )
 

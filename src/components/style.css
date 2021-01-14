@@ -1,22 +1,4 @@
-body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-    
-  } 
-  /* #root {
-    flex: 1 0 auto; 
-  } */
-  .page-footer{
-    position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: red;
-   color: white;
-   text-align: center;
-}
-    
+ 
 .navbar{
     font-family: 'Archivo Black', sans-serif;
     /* text-shadow: 2px 2px 5px white; */
@@ -25,21 +7,31 @@ body {
 }
 body{
     background-color: black;
-    color: white;
+    /* color: white; */
     min-height: 100vh;
 }
 i{
-    font-size: 48px;
+    font-size: 22px;
 }
 i:hover{
-    text-shadow: 2px 2px 35px dodgerblue;
-    font-size:55px;
+    text-shadow: 5px 5px 35px dodgerblue;
+    font-size:35px;
     
 
 }
-  #wrapper {
+  /* #wrapper {
     margin-top:auto;
-  }
+  } */
   .footer {
-      flex:1;
+    position: absolute;
+    bottom: 0;
   }
+  /* .activator {
+      height: 300px;
+      width: auto;
+  } */
+  .dispBox {
+    box-shadow: 8px 8px 8px dodgerblue;
+    /* flex-wrap: nowrap;
+    flex-direction: row; */
+}
