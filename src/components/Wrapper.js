@@ -3,7 +3,7 @@ import NavHead from "./NavHead";
 import Foot from "./Foot"
 
 
-function Portfolio() {
+const Wrapper =() => {
 
     return (
         <>
@@ -17,4 +17,4 @@ function Portfolio() {
 
 }
 
-export default Portfolio;
+export default Wrapper;

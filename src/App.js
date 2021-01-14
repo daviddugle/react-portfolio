@@ -1,9 +1,9 @@
 import React from "react";
-import Portfolio from "./components/Portfolio";
+import Wrapper from "./components/Wrapper";
 
 
 function App() {
-  return <Portfolio />
+  return <Wrapper />
 }
 
 export default App;
