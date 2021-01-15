@@ -77,6 +77,7 @@ Please visit the <a href='https://daviddugle.herokuapp.com/' target='_blank'>dep
 * React
 * Materialize
 * FontAwesome
+* Heroku
 
 
 
