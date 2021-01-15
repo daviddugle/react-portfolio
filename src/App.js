@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Portfolio from "./pages/Portfolio";
+// import Portfolio from "./pages/Portfolio";
 import Wrapper from "./pages/Wrapper"
 import Home from "./pages/Home";
 import NavHead from "./components/NavHead";
@@ -25,9 +25,9 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route exact path="/contactme" component={ContactMe} />
        
-        <Wrapper>
-        <Route exact path="/portfolio" component={Portfolio} />
-        </Wrapper>
+        {/* <Wrapper> */}
+        <Route exact path="/portfolio" component={Wrapper} />
+        {/* </Wrapper> */}
         
 
 
