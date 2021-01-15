@@ -66,7 +66,7 @@ This is my portfolio on a react platform.
 
 ## Installation Instructions
 
-Please visit the deployed site.
+Please visit the <a href='https://daviddugle.herokuapp.com/' target='_blank'>deployed site.</a>
 
 
 
