@@ -66,7 +66,8 @@ This is my portfolio on a react platform.
 
 ## Installation Instructions
 
-You should be able to just visit the links at the top of the page.
+Please visit the deployed site.
+
 
 
 
@@ -118,9 +119,9 @@ in terminal
 
 ## Photos
 
-![DeployedPhoto]()
+![DeployedPhoto](https://github.com/daviddugle/react-portfolio/blob/main/src/images/Main.jpg?raw=true)
 
-place your photo in the parentheses
+
 
 
 
