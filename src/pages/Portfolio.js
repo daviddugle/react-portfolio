@@ -1,6 +1,6 @@
 import React from "react";
 
-import  "./style.css";
+import  "../components/style.css";
 
 const Portfolio =(props) => {
 
@@ -41,7 +41,7 @@ const Portfolio =(props) => {
                                     <ul className="center-align">
                                         {props.technology.map(tech =>
                                             
-                                        <li className="collection-item">{tech}</li>
+                                        <li key={tech} className="collection-item">{tech}</li>
                                             )}
                                         
                                     </ul>

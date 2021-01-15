@@ -1,14 +1,16 @@
 import React from "react";
-import Portfolio from "./Portfolio";
-import Bundle from "./Bundle"
-import Home from "./Home";
-import NavHead from "./NavHead";
-import Foot from "./Foot";
-import "./style.css";
-
-import AboutMe from "./AboutMe";
-
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import Portfolio from "./pages/Portfolio";
+import Wrapper from "./pages/Wrapper"
+import Home from "./pages/Home";
+import NavHead from "./components/NavHead";
+import Foot from "./components/Foot";
+import "./components/style.css";
+
+
+import ContactMe from "./pages/ContactMe";
+
+
 
 
 
@@ -20,15 +22,17 @@ function App() {
         <div className="black">
         <NavHead />
 
-      <Bundle>
-
         <Route exact path="/" component={Home} />
+        <Route exact path="/contactme" component={ContactMe} />
+       
+        <Wrapper>
         <Route exact path="/portfolio" component={Portfolio} />
-        <Route exact path="/contactme" component={AboutMe} />
+        </Wrapper>
+        
 
 
       
-      </Bundle>
+      
 
         <Foot />
         </div>

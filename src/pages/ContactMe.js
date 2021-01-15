@@ -1,7 +1,7 @@
 import React from "react";
-import  "./style.css";
+import  "../components/style.css";
 
-const AboutMe = () => {
+const ContactMe = () => {
 
 return (
 
@@ -14,7 +14,7 @@ return (
         </div>
         <div className="card-action">
         <a href="mailto:david.dugleii@yahoo.com">david.dugleii@yahoo.com</a>
-            <p><i class="fas fa-mobile-alt"></i> 980.777.0729</p>
+            <p><i className="fas fa-mobile-alt"></i> 980.777.0729</p>
         </div>
       </div>
     </div>
@@ -24,4 +24,4 @@ return (
 
 }
 
-export default AboutMe;
+export default ContactMe;
