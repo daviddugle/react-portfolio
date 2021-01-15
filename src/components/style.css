@@ -5,6 +5,9 @@
     
     
 }
+.brand-logo{
+    margin-left: 10px;
+}
 body{
     background-color: black;
     /* color: white; */
@@ -69,4 +72,5 @@ i:hover{
 .stackz{
     font-size: 40px;
 }
+
 

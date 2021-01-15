@@ -14,10 +14,10 @@ const NavHead = () => {
         <>
         <nav>
             <div className="nav-wrapper black">
-                <p className="brand-logo blueman">
+                <span className="brand-logo blueman">
                 <Link to="/" className={location.pathname === "/" ? "nav-link active blueman" : "nav-link blueman"}><i className="fas fa-home"></i></Link>
                 
-                </p>
+                </span>
                 <ul id="nav-mobile" className="right  ">
                     <li><a href="https://www.linkedin.com/in/david-dugle-54b16641/" target="_blank" rel="noreferrer"><i className="blueman fab fa-linkedin"></i></a></li>
                     <li><a href="https://github.com/daviddugle" target="_blank" rel="noreferrer"><i className="fab fa-github blueman"></i></a></li>
