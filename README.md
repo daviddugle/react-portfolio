@@ -74,7 +74,9 @@ Please visit the <a href='https://daviddugle.herokuapp.com/' target='_blank'>dep
 
 ## Technologies Used
 
-* list your technologies used in the app
+* React
+* Materialize
+* FontAwesome
 
 
 
