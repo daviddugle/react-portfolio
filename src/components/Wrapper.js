@@ -1,8 +1,10 @@
 import React, { Component } from "react";
 import NavHead from "./NavHead";
-import Foot from "./Foot"
+import Foot from "./Foot";
 import Portfolio from "./Portfolio";
-import port from "./port.json"
+import Home from "./Home";
+import AboutMe from "./AboutMe";
+import port from "./port.json";
 import "./style.css";
 
 
@@ -22,7 +24,9 @@ class Wrapper extends Component {
                 <div className="black">
                 <NavHead />
 
-                {this.state.port.map(proj => (
+                <AboutMe/>
+                {/* <Home /> */}
+                {/* {this.state.port.map(proj => (
                     <Portfolio
                         id={proj.id}
                         name={proj.name}
@@ -34,7 +38,7 @@ class Wrapper extends Component {
                         persevered={proj.persevered}
                         technology={proj.technology}
                     />
-                ))}
+                ))} */}
 
                 <Foot />
 
