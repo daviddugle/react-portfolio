@@ -1,5 +1,6 @@
 [
     {
+        "id": 1,
         "name": "Weather Dashboard",
         "img": "https://github.com/daviddugle/Weather-Dashboard/blob/main/assets/Photos/Screenshot%202020-11-13%20204346.jpg?raw=true",
         "git": "https://github.com/daviddugle/Weather-Dashboard",
@@ -7,9 +8,10 @@
         "description": "This is a fun app that uses the Open Weather API. It takes in locations that you would like to search and stores them on the local storage. The app gives you a current weather forecast and a five day.",
         "challenges": "In the beginning I had challenges with the local storage and saving the locations the user had selected. Then it was just a matter of managing the third party API information.",
         "persevered": "I continued to study local storage and how to set and get the informtion. Also with the third party API it was important to console log the data at all steps to make sure that I was getting what I needed.",
-        "technology": ["Third Party API, Local Storage","jQuery", "Bootstrap", "fontAwesome","Moment"]
+        "technology": ["Third Party API", "Local Storage","jQuery", "Bootstrap", "fontAwesome","Moment"]
     },
     {
+        "id": 2,
         "name": "Work Day Scheduler",
         "img": "https://github.com/daviddugle/Work-Day-Scheduler/blob/main/assets/Screenshot%202020-11-11%20125954.jpg?raw=true",
         "git": "https://github.com/daviddugle/Work-Day-Scheduler",
@@ -20,6 +22,7 @@
         "technology": ["Moment", "Local Storage", "Bootstrap", "FontAwesome","Google Fonts"]
     },
     {
+        "id": 3,
         "name": "Honest Trailers",
         "img": "https://raw.githubusercontent.com/v-lax/movie_trailer_web_app/main/assets/deployed.png",
         "git": "https://github.com/v-lax/movie_trailer_web_app",
@@ -30,6 +33,7 @@
         "technology": ["Bulma","jQuery", "FontAwesome", "OMDB AOI", "Google API (YouTube)", "Local Storage"]
     },
     {
+        "id": 4,
         "name": "Daily Service Record",
         "img": "https://user-images.githubusercontent.com/72622031/102845579-da0b3b00-43db-11eb-8248-c9883bc56227.png",
         "git": "https://github.com/diminako/daily_service_record",
@@ -40,9 +44,10 @@
         "technology": ["SQL", "Sequelize","Bulma","Handlebars", "FontAwesome", "jQuery", "Moment", "D3","Express","Passport","bcrypt"]
     },
     {
+        "id": 5,
         "name": "Burger Logger",
         "img": "https://github.com/daviddugle/Burger-Logger/raw/main/public/assets/burgerPhoto.jpg",
-        "git": "https://github.com/daviddugle/employee-directory",
+        "git": "https://github.com/daviddugle/Burger-Logger",
         "deployed": "https://intense-garden-63215.herokuapp.com/",
         "description": "A simple full-stack app that allows you to take in burger suggestions add them to a list and then move to another list if selected by a consumer.",
         "challenges": "The biggest challeng for me at this point for my first full stack app was moving the data across the handlebars.",
@@ -50,9 +55,10 @@
         "technology": ["Express","Handlebars","Node","SQL", "Heroku", "jQuery"]
     },
     {
+        "id": 6,
         "name": "Employee Directory",
         "img": "https://raw.githubusercontent.com/daviddugle/employee-directory/main/assets/Screenshot%202021-01-12%20072952.jpg",
-        "git": "https://github.com/daviddugle/Burger-Logger",
+        "git": "https://github.com/daviddugle/employee-directory",
         "deployed": "https://daviddugle.github.io/employee-directory/",
         "description": "My first React app that takes in a list of employees and allows a manager to sort them by at least one category",
         "challenges": "Being new to React, I struggled at where I was grabbing information on another component.",

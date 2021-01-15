@@ -1,7 +1,8 @@
 import React from "react";
+
 import  "./style.css";
 
-const Portfolio = () => {
+const Portfolio =(props) => {
 
 
     return (
@@ -13,36 +14,36 @@ const Portfolio = () => {
                 <div className="col s6 offset-s3">
                     <div className="card dispBox ">
                         <div className="card-image waves-effect waves-block waves-light">
-                            <img className="activator" alt="img name" src="https://github.com/daviddugle/Work-Day-Scheduler/blob/main/assets/Screenshot%202020-11-11%20125954.jpg?raw=true"></img>
+                            <img className="activator" alt={props.name} src={props.img}></img>
                         </div>
                         <div className="card-content">
-                            <span className="card-title activator grey-text text-darken-4">Project Name<i className="material-icons right">More</i></span>
-                            <span className="center-align"><a href="https://github.com/daviddugle/Work-Day-Scheduler"><i className="fab fa-github"></i></a><p></p><a className="secondLink" href="https://github.com/daviddugle/Work-Day-Scheduler">Deployed Link</a></span>
+                            <span className="card-title activator grey-text text-bold text-darken-4">{props.name}<i className="material-icons right">More</i></span>
+                            <span className="center-align"><a href={props.git} target="_blank" rel="noreferrer"><i className="fab fa-github"></i></a><p></p><a className="secondLink" target="_blank" rel="noreferrer" href={props.deployed}>Deployed Link</a></span>
                         </div>
                         <div className="card-reveal">
-                            <span className="card-title grey-text text-darken-4">Card Title<i className="material-icons right">close</i></span>
-                            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                            <span className="card-title grey-text  text-darken-4 ">{props.name}<i className="material-icons right">close</i></span>
+                            
                             <div className="row">
                                 <div className="col s12">
                                    <h5 className="center-align">Description Of App </h5>   
-                                   <p>"This App is a work day scheduler that keeps track of your business hours. The hours on the scheduler change as the time of day progresses (past, present and future). The user is able to save information to local storage to display on the page."</p>                                 
+                                   <p>{props.description}</p>                                 
                                 </div>
-                                <div className="col s6">
+                                <div className="col s12">
                                 <h5 className="center-align">Challenges </h5> 
-                                    <p>"Working with local storage was challenging at first but was able to get through it."</p>
+                                    <p>{props.challenges}</p>
                                 </div>
-                                <div className="col s6">
+                                <div className="col s12">
                                 <h5 className="center-align">Perseverance</h5> 
-                                <p>"Continued to dive deep into the documentation and ask a lot of questions. I feel this was a great project that challenged me at the state of development I was at."</p>
+                                <p>{props.persevered}</p>
                                 </div>
                                 <div className="col s12">
                                     <h5 className="center-align">Technologies Used</h5>
                                     <ul className="center-align">
-                                        <li className="collection-item">Moment</li>
-                                        <li className="collection-item">Local Storage</li>
-                                        <li className="collection-item">Bootstrap</li>
-                                        <li className="collection-item">FontAwesome</li>
-                                        <li className="collection-item">Google Fonts</li>
+                                        {props.technology.map(tech =>
+                                            
+                                        <li className="collection-item">{tech}</li>
+                                            )}
+                                        
                                     </ul>
                                     
                                 </div>
