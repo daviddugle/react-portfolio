@@ -64,6 +64,17 @@
         "challenges": "Being new to React, I struggled at where I was grabbing information on another component.",
         "persevered": "Not being afraid to ask for help, it turned out I had a syntax error that caused my frustrations.",
         "technology": ["React", "Node","Bootstrap","React-Dom","Axios","Randomuser API"]
+    },
+    {
+        "id": 7,
+        "name": "Dev-Connect",
+        "img": "https://raw.githubusercontent.com/diminako/dev-connect/main/screenshots/proj3screen.png",
+        "git": "https://github.com/diminako/dev-connect",
+        "deployed": "https://secret-refuge-67245.herokuapp.com/",
+        "description": "This React app allows a user to create a profile of their strengths and ender a set of chat rooms that are related to their strengths or weaknesses",
+        "challenges": "Implementing socket.io was a tough part of this project. Also, building our own passport verification was tricky.",
+        "persevered": "Team work helped with the socket.io and also reviewing different tutorials.",
+        "technology": ["React", "Node","Mongoose","React-Dom","Axios","socket.io", "Passport", "React-emoji","Foundation", "bcrypt"]
     }
 
 
