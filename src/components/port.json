@@ -1,5 +1,27 @@
 [
     {
+        "id": 7,
+        "name": "Dev-Connect",
+        "img": "https://raw.githubusercontent.com/diminako/dev-connect/main/screenshots/screenshot.png",
+        "git": "https://github.com/daviddugle/dev-connect",
+        "deployed": "https://secret-refuge-67245.herokuapp.com/",
+        "description": "This React app allows a user to create a profile of their strengths and ender a set of chat rooms that are related to their strengths or weaknesses",
+        "challenges": "Implementing socket.io was a tough part of this project. Also, building our own passport verification was tricky.",
+        "persevered": "Team work helped with the socket.io and also reviewing different tutorials.",
+        "technology": ["React", "Node","Mongoose","React-Dom","Axios","socket.io", "Passport", "React-emoji","Foundation", "bcrypt"]
+    }, 
+    {
+        "id": 4,
+        "name": "Daily Service Record",
+        "img": "https://user-images.githubusercontent.com/72622031/102845579-da0b3b00-43db-11eb-8248-c9883bc56227.png",
+        "git": "https://github.com/daviddugle/daily_service_record",
+        "deployed": "https://mighty-spire-89072.herokuapp.com/",
+        "description": "This was a collaborative group project. The Daily Service Record is a Full-Stack MVC web application that authenticates users as administrators (manager) or employees (user) based off of their login credentials. This application will allow both the Manager and Employees to view information specific to thier duties and current repairs.",
+        "challenges": "Some of the bigger challenges was how to get the data we needed for the task that we wanted it for. Once we got the API requests set we were in pretty good shape.",
+        "persevered": "Continually referring to the documentation and checking to make sure we were seeing the data where we had expected to see it.",
+        "technology": ["SQL", "Sequelize","Bulma","Handlebars", "FontAwesome", "jQuery", "Moment", "D3","Express","Passport","bcrypt"]
+    },   
+    {
         "id": 1,
         "name": "Weather Dashboard",
         "img": "https://github.com/daviddugle/Weather-Dashboard/blob/main/assets/Photos/Screenshot%202020-11-13%20204346.jpg?raw=true",
@@ -32,17 +54,7 @@
         "persevered": "We quickly found a work flow that made us successful but it took some bumps and bruises. The group project made us stronger developers overall.",
         "technology": ["Bulma","jQuery", "FontAwesome", "OMDB AOI", "Google API (YouTube)", "Local Storage"]
     },
-    {
-        "id": 4,
-        "name": "Daily Service Record",
-        "img": "https://user-images.githubusercontent.com/72622031/102845579-da0b3b00-43db-11eb-8248-c9883bc56227.png",
-        "git": "https://github.com/daviddugle/daily_service_record",
-        "deployed": "https://mighty-spire-89072.herokuapp.com/",
-        "description": "This was a collaborative group project. The Daily Service Record is a Full-Stack MVC web application that authenticates users as administrators (manager) or employees (user) based off of their login credentials. This application will allow both the Manager and Employees to view information specific to thier duties and current repairs.",
-        "challenges": "Some of the bigger challenges was how to get the data we needed for the task that we wanted it for. Once we got the API requests set we were in pretty good shape.",
-        "persevered": "Continually referring to the documentation and checking to make sure we were seeing the data where we had expected to see it.",
-        "technology": ["SQL", "Sequelize","Bulma","Handlebars", "FontAwesome", "jQuery", "Moment", "D3","Express","Passport","bcrypt"]
-    },
+   
     {
         "id": 5,
         "name": "Burger Logger",
@@ -64,18 +76,8 @@
         "challenges": "Being new to React, I struggled at where I was grabbing information on another component.",
         "persevered": "Not being afraid to ask for help, it turned out I had a syntax error that caused my frustrations.",
         "technology": ["React", "Node","Bootstrap","React-Dom","Axios","Randomuser API"]
-    },
-    {
-        "id": 7,
-        "name": "Dev-Connect",
-        "img": "https://raw.githubusercontent.com/diminako/dev-connect/main/screenshots/screenshot.png",
-        "git": "https://github.com/daviddugle/dev-connect",
-        "deployed": "https://secret-refuge-67245.herokuapp.com/",
-        "description": "This React app allows a user to create a profile of their strengths and ender a set of chat rooms that are related to their strengths or weaknesses",
-        "challenges": "Implementing socket.io was a tough part of this project. Also, building our own passport verification was tricky.",
-        "persevered": "Team work helped with the socket.io and also reviewing different tutorials.",
-        "technology": ["React", "Node","Mongoose","React-Dom","Axios","socket.io", "Passport", "React-emoji","Foundation", "bcrypt"]
     }
+    
 
 
 ]
